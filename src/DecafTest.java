@@ -16,8 +16,8 @@ import java.util.Arrays;
 
 public class DecafTest {
     public static void main(String[] args) {
-        String inputFolderPath = "/Users/apple/IdeaProjects/Anltr_project_phase1_v3/parser/legal";
-        String outputFolderPath = "/Users/apple/IdeaProjects/Anltr_project_phase1_v3/output/legal";
+        String inputFolderPath = "YOUR INPUT PATH";
+        String outputFolderPath = "YOUR OUTPUT PATH";
 
         File inputFolder = new File(inputFolderPath);
         File[] inputFiles = inputFolder.listFiles();
